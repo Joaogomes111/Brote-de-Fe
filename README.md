@@ -1,34 +1,23 @@
 # Brote de Fe — El Viaje de las 73 Raíces
 
-Landing page estática (HTML + CSS) do ebook. Sem build, sem dependências.
+Landing page estática em **um único arquivo** (`index.html`): CSS, fontes, imagens e JS já estão embutidos.
+Não tem build nem pasta de assets.
 
-## Estrutura
+## Arquivos
 
-```
-index.html          página única
-assets/css/         estilos
-assets/font/        fontes (.ttf)
-assets/image/       imagens (.webp)
-assets/copyforge/   interactions.js (FAQ, menus, etc.)
-vercel.json         cache dos assets + headers de segurança
-```
-
-## Rodar local
-
-```bash
-npx serve .
-# ou
-python3 -m http.server 8000
-```
+- `index.html` — a página inteira
+- `og-cover.webp` — imagem de compartilhamento (WhatsApp/Facebook/Twitter)
+- `vercel.json` — headers de segurança
+- `.gitignore`
 
 ## Deploy na Vercel
 
-1. Suba este repositório no GitHub.
-2. Na Vercel: **Add New → Project** → importe o repositório.
-3. **Framework Preset:** `Other` · **Build Command:** vazio · **Output Directory:** vazio (raiz).
-4. Deploy. Depois, em **Settings → Domains**, adicione `brotedefe.com`.
+1. Suba estes arquivos na **raiz** do repositório no GitHub.
+2. Vercel → **Add New → Project** → importe o repositório.
+3. Framework Preset: `Other` · Build Command e Output Directory: vazios.
+4. Settings → Domains → adicione `brotedefe.com`.
 
-## Pendências conhecidas
+## Pendências
 
-- Links de Privacidade, Termos, Cookies e Reembolsos (rodapé) estão como `href="#"` — criar as páginas ou apontar para URLs reais.
-- Texto de garantia/rodapé cita Hotmart, mas o botão de compra aponta para Kiwify — alinhar.
+- Links Privacidad / Términos / Cookies / Reembolsos do rodapé estão como `href="#"`.
+- Texto cita Hotmart, mas o botão de compra aponta para Kiwify.
