@@ -1,0 +1,13 @@
+# SO / editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Vercel / env
+.vercel
+.env
+.env.*
+
+# Node (caso adicione tooling depois)
+node_modules/
