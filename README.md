@@ -17,7 +17,10 @@ Não tem build nem pasta de assets.
 3. Framework Preset: `Other` · Build Command e Output Directory: vazios.
 4. Settings → Domains → adicione `brotedefe.com`.
 
+## Checkout
+
+O botão de compra aponta para `https://pay.cakto.com.br/smyiq5a_1254877`.
+
 ## Pendências
 
 - Links Privacidad / Términos / Cookies / Reembolsos do rodapé estão como `href="#"`.
-- Checkout da oferta: Cakto (`https://pay.cakto.com.br/smyiq5a_1254877`).
