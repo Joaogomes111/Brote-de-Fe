@@ -20,4 +20,4 @@ Não tem build nem pasta de assets.
 ## Pendências
 
 - Links Privacidad / Términos / Cookies / Reembolsos do rodapé estão como `href="#"`.
-- Texto cita Hotmart, mas o botão de compra aponta para Kiwify.
+- Checkout da oferta: Cakto (`https://pay.cakto.com.br/smyiq5a_1254877`).
